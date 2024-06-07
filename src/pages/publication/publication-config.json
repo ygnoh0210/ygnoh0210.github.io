@@ -1,0 +1,87 @@
+{
+    "educations": [
+        {
+            "id": "edu-1",
+            "school": "Gwangju Institue of Science and Technology",
+            "degree": "Master of Science in Computer Science",
+            "duration": "Sep. 2019 - Aug. 2021",
+            "content": [
+                "School of Integrated Technology", "Thesis : Movie Review Analysis Using Text Sentiment Analysis and Designing a Strategy of Selecting a Representative Review"
+            ]
+            
+        },
+        {
+            "id": "edu-2",
+            "school": "Handong Global University",
+            "degree": "Bachelors in Computer Engineering",
+            "duration": "Mar. 2015 - Aug. 2019",
+            "content": [
+                "Computer Engineering", "Capstone Project : Maintenance and inventory history management application using NFC"
+            ]
+        }
+    ],
+    "experiences_real": [
+        {
+            "id": "exp-1",
+            "school": "MAKABoom",
+            "degree": "App Developer (Native app Frontend)",
+            "duration": "Dec. 2020 - Jun. 2021",
+            "content": [
+                "International Internship Program in the United States​",
+                "Developing an application for manageing students' LEGO coding projects and facilitatin sharing among them.",
+                "Hybrid Web/App"
+            ]
+        }
+    ],
+    "experiences": [
+        
+        {
+            "id": "exp-2",
+            "company": "Smart Application",
+            "position": "대상",
+            "duration": "2018",
+            "description": [
+                ""
+            ]
+        }
+    ],
+    "certification": [
+        {
+            "id": "exp-1",
+            "company": "Engineer Information Processing",
+            "position": "Human Resources Development Service of Korea",
+            "duration": "Sep. 2019",
+            "description": [
+                
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "Programming and Framework",
+            "tools": [
+                "Python",
+                "JavaScript",
+                "C/C++",
+                "React Native",
+                "NoSQL", "React", "Unity", "Firebase"
+            ]
+        },
+        {
+            "title": "Strength",
+            "tools": ["Academically Motivated", "Able to Communicate Well"]
+        }
+    ],
+    "blog": [
+        {
+            "id": "blog-1",
+            "title": "A beginner's guide to github",
+            "link": "https://hrishikeshpaul12.medium.com/a-beginners-guide-to-github-a811e662a777"
+        },
+        {
+            "id": "blog-2",
+            "title": "User Experience Design – A little more than just design",
+            "link": "https://hrishikeshpaul12.medium.com/user-experience-design-a-little-more-than-just-design-afdb941aeb5"
+        }
+    ]
+}
