@@ -1,11 +1,7 @@
-# Portfolio Template 🖐
-> Version 2 of a simple, minimal and responsive personal website template, built using React, TypeScript, HTML and SCSS.
+# Yeo-Gyeong Noh 🖐
+> Personal website template, built using React, TypeScript, HTML and SCSS.
 
-![Portfolio Template Banner](public/assets/readme/banner.png)
-
-💻  Live [demo](https://hpaul-v2.web.app/)
-
----
+https://ygnoh0210.github.io
 
 ## Table of Contents
 
