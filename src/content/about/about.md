@@ -1,1 +1,0 @@
-A Ph.D. Student advised by [Jin-Hyuk Hong](https://scholar.google.com/citations?hl=en&user=iTu5G9QAAAAJ) at [GIST](https://www.gist.ac.kr/en/main.html/), in the [Soft Computing & Interaction Lab](https://iit.gist.ac.kr/sci/index.do). 

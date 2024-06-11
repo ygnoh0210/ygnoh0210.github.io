@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_3=self.webpackChunkportfolio_3||[]).push([[197],{197:function(e,r,t){t.r(r),t.d(r,{FeaturedProjects:function(){return s}});var o=t(1413),i=t(8735),n=t(5538),u=t(9263),c=t(184),s=function(){return(0,c.jsx)(i.xu,{id:"featured-projects",display:{base:"block",md:"flex",lg:"block"},flexDir:"column",gap:{base:"2",md:"1"},children:u.rH.featuredProjects.map((function(e,r){return(0,c.jsx)(n.X,(0,o.Z)({imagePosition:r%2===0?n.O.Right:n.O.Left},e),e.id)}))})}}}]);
+//# sourceMappingURL=197.1b2ad55b.chunk.js.map
