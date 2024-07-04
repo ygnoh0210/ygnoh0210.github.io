@@ -1,1 +1,0 @@
-Hello, I'm Yeo-Gyeong Noh, a Ph.D. student advised by [Prof. Jin-Hyuk Hong](https://scholar.google.com/citations?hl=en&user=iTu5G9QAAAAJ), in the [Soft Computing & Interaction Lab](https://iit.gist.ac.kr/sci/index.do). 
