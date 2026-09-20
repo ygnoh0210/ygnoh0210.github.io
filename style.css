@@ -327,17 +327,18 @@ body[data-page='home'] .site-main { flex: 1; display: grid; align-items: center;
 .project-empty h2 { font-size: 30px; }
 .project-empty p { margin-top: 8px; color: var(--muted); }
 .project-grid { padding-bottom: 55px; }
-.project-card { padding-bottom: 18px; }
+.project-card { display: flex; flex-direction: column; padding-bottom: 18px; }
 .project-meta { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); gap: 12px; margin: 17px 12px 11px; }
 .project-meta > span:last-child { color: var(--blue); }
 .project-card h2 { font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-weight: 500; margin: 0 12px; }
 .project-card .work-open > p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 12px; font-size: 16px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 12px 0; }
 .tags span { font-size: 12px; border: 1px solid var(--line); padding: 2px 7px; color: var(--muted); background: var(--bg); }
-.resource-links { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-top: 18px; }
-.project-card .resource-links { margin-left: 12px; margin-right: 12px; }
-.resource-links a { display: inline-flex; align-items: center; gap: 5px; font-size: 14px; color: var(--blue); text-decoration: underline; text-underline-offset: 4px; }
-.resource-links a:hover { color: var(--ink); }
+.resource-links { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 18px; }
+.project-card .resource-links { justify-content: flex-end; margin: auto 12px 0; padding-top: 18px; }
+.resource-links:empty { display: none; }
+.resource-links a { display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px; border-radius: 4px; background: var(--blue); color: var(--paper); font-size: 12px; font-weight: 500; line-height: 1.5; text-decoration: none; transition: background-color .15s ease; }
+.resource-links a:hover, .resource-links a:focus-visible { background: var(--ink); color: var(--paper); }
 .resource-links svg { width: 12px; height: 12px; }
 .metrics-bar { display: flex; align-items: center; gap: 50px; padding: 22px 24px; border: 1px solid var(--line); background: var(--paper); box-shadow: 3px 3px 0 var(--shadow); margin-bottom: 24px; }
 .metrics-bar > div { display: flex; flex-direction: column; gap: 4px; }
@@ -408,12 +409,14 @@ body[data-page='home'] .site-main { flex: 1; display: grid; align-items: center;
 .publication-reveal.is-revealed, .publication-reveal:focus-within { opacity: 1; transform: none; }
 .venue { display: table; max-width: 100%; padding: 6px 11px; border: 1px solid var(--line); border-left: 3px solid var(--blue); background: var(--blue-wash); font: 700 16px/1.5 Arial, Helvetica, sans-serif; color: var(--blue); margin-bottom: 14px; overflow-wrap: anywhere; }
 .publication h3 { font-size: 21px; line-height: 1.4; font-weight: 500; }
-.authors { font-size: 14px; color: var(--muted); margin-top: 10px; }
+.publication-meta { display: flex; align-items: baseline; gap: 16px; margin-top: 10px; }
+.authors { flex: 1; min-width: 0; font-size: 14px; color: var(--muted); }
 .authors strong { color: var(--ink); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
-.publication .resource-links { display: flex; gap: 6px; margin: 8px 0 0; }
-.publication .resource-links:empty { display: none; }
-.publication .resource-links a { padding: 3px 8px; border-radius: 4px; background: var(--blue-wash); color: var(--blue); font-size: 12px; font-weight: 500; line-height: 1.5; text-decoration: none; }
-.publication .resource-links a:hover, .publication .resource-links a:focus-visible { background: var(--wash); color: var(--ink); }
+.publication .resource-links { flex-shrink: 0; justify-content: flex-end; gap: 6px; margin: 0; }
+@media (max-width: 650px) {
+  .publication-meta { flex-direction: column; align-items: stretch; gap: 8px; }
+  .publication .resource-links { justify-content: flex-start; }
+}
 .travel-intro { display: grid; grid-template-columns: 1.25fr 1fr; gap: 45px; align-items: center; padding: 8px 0 45px; border-bottom: 1px dotted var(--line); }
 .travel-cover { position: relative; padding: 8px; border: 1px solid var(--line); background: var(--paper); box-shadow: 4px 4px 0 var(--shadow); }
 .travel-cover > img { aspect-ratio: 1.25; object-fit: cover; object-position: center 58%; border: 1px solid var(--line); }

@@ -290,7 +290,7 @@ function fillDialog({title, image, kicker, description = '', links = []}) {
   for (const [label, url] of links) {
     if (!url || !/^https?:\/\//.test(url)) continue;
     const link = document.createElement('a');
-    link.href = url; link.textContent = `${label} ↗`; link.target = '_blank'; link.rel = 'noopener noreferrer';
+    link.href = url; link.textContent = label; link.target = '_blank'; link.rel = 'noopener noreferrer';
     $('#detail-links').append(link);
   }
 }
